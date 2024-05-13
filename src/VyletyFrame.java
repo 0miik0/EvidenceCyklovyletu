@@ -21,6 +21,9 @@ public class VyletyFrame extends JFrame {
         setTitle("Cyklovýlety");
         setSize(500,400);
 
+        //JScrollPane scrollPane = new JScrollPane(txtArea);
+        //scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+
         seznamVyletu.add(new Cyklovylet("A", 7, LocalDate.of(2024,10,12)));
         seznamVyletu.add(new Cyklovylet("B", 8, LocalDate.of(2024,10,12)));
         display();
